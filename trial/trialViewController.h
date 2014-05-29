@@ -10,4 +10,8 @@
 
 @interface trialViewController : UIViewController
 
+- (IBAction)button_pressed:(UIButton *)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *status_label;
+
 @end

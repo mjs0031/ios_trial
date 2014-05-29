@@ -24,6 +24,9 @@
                                     <color key="titleColor" red="1" green="0.062344738029975755" blue="0.20441111356627784" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="0.2191632499" green="1" blue="0.28030358700000002" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h9b-MA-Elc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kC7-Ee-8Xg">
                                 <rect key="frame" x="20" y="435" width="46" height="30"/>
@@ -33,24 +36,23 @@
                                     <color key="titleColor" red="0.21916324985936653" green="1" blue="0.28030358701693447" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" red="1" green="0.062344738029999999" blue="0.2044111136" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button_pressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6Mn-6i-rRL"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-KI-boV">
-                                <rect key="frame" x="122" y="266" width="76" height="36"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pm7-KI-boV">
+                                <rect key="frame" x="20" y="266" width="280" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Middle">
-                                        <attributes>
-                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="status_label" destination="Pm7-KI-boV" id="cit-1s-WRu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

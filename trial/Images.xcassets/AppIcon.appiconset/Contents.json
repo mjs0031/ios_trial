@@ -1,9 +1,8 @@
 {
   "images" : [
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "xmera_png-1.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
@@ -17,9 +16,8 @@
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "xmera_png.png",
+      "size" : "29x29",
       "scale" : "1x"
     },
     {
